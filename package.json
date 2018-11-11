@@ -1,0 +1,41 @@
+{
+  "name": "ryouiki",
+  "version": "0.0.0",
+  "private": true,
+  "author": {
+    "name": "William Turner",
+    "email": "willtur.will@gmail.com"
+  },
+  "description": "A 4chan style imageboard written in Node.js with Express and Mongoose.",
+  "subdomain": "board-willisite",
+  "main": "server.js",
+  "homepage": "https://board-willisite.rhcloud.com/",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "contributors": [
+    {
+      "name": "William Turner",
+      "email": "willtur.will@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "mongoose": "3.6.x",
+    "connect-flash": "0.1.x",
+    "express": "3.1.x",
+    "passport": "0.1.x",
+    "passport-local": "0.1.6",
+    "consolidate": "0.9.x",
+    "jade": "0.28.x",
+    "gm": "1.8.x",
+    "async": "0.2.x",
+    "marked": "0.2.x",
+    "highlight": "0.2.x",
+    "time": "0.11.x"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.6.0",
+    "npm": ">=1.0.0"
+  }
+}
